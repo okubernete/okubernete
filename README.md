@@ -1,4 +1,4 @@
-# Ejemplo uso plugin de maven JGit-Flow para trabajo con ramas Git siguiendo el flujo [git-flow](http://aprendegit.com/que-es-git-flow/)
+# Wikimedia
 
 El proyecto es [Maven](http://maven.apache.org) y muestra el uso del plugin [JGit-Flow](https://bitbucket.org/atlassian/jgit-flow/wiki/Home) de [Atlassian](https://www.atlassian.com).
 
@@ -8,9 +8,9 @@ El plugin es sencillo de configurar en nuestro proyecto. Por un lado es necesari
 
 ```xml
 <scm>
-  <connection>scm:git:https://github.com/juanmacintas/demo-jgitflow-maven-plugin.git</connection>
-  <developerConnection>scm:git:https://github.com/juanmacintas/demo-jgitflow-maven-plugin.git</developerConnection>
-  <url>https://github.com/juanmacintas/demo-jgitflow-maven-plugin</url>
+  <connection>scm:git:https://github.com/juanmacintas/Wikimedia.git</connection>
+  <developerConnection>scm:git:https://github.com/juanmacintas/Wikimedia.git</developerConnection>
+  <url>https://github.com/juanmacintas/Wikimedia</url>
   <tag>HEAD</tag>
 </scm>
 ```
